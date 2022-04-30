@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(!wd2!t3bl+wge7noocj8ga9-zt4&!#na&@oq^z-c^mr$0r-$&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0"]
+ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1"]
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'events'
+    'events',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +69,16 @@ TEMPLATES = [
         },
     },
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+        
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    )
+}
+
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
