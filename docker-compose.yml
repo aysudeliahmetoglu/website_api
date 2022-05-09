@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  django:
+    container_name: rest_api
+    build:
+        context: .
+        dockerfile: ./compose/local/django/Dockerfile
+    image: drftest
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    # env_file:
+    #   - ./.envs/.local
+    command: sh /app/compose/local/django/start
+    tty: true
+
+#   nginx:
+#     restart: always
+#     images: drftest
+#     build: ./nginx/
+#     ports:
+#       - "80:80"
+#     volumes:
+#       - web-static:/www/static
+#     links:
+#       - web:web
+
+
+
+
+
+# volumes:
+#   web-django:
+#   web-static:
+#   pgdata:
+#   redisdata:
