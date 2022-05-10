@@ -1,6 +1,5 @@
 # website_api
 
-#TODO: Buraları düzelteceğim.
 
 #Kurulum ve başlatma
 
