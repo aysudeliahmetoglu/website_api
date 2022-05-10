@@ -8,13 +8,27 @@
 docker compose up --build -d
 
 ```
+
+# node vue frontend kısmını görüntülemek için siteye tıklayınız. http://localhost:8080/
+
+#Mainpage sayfası açılacaktır.
+
 ![MainPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
+
+#Login butonuna tıklayarak LoginPage sayfasına gelebilirsiniz.
 
 ![LoginPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/loginpage.jpg)
 
+#Calendar butonuna tıklayarak calendar'ı ve etkinlikleri görüntüleyebilirsiniz.
+
 ![CalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/calendar.jpg)
 
+#İsteğe bağlı olarak week butonuna tıklayarak weeklycalendar sayfasına giderek haftalık olarak takvim görüntüleyebilirsiniz.
+
+
 ![WeeklyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/weeklycalendar.jpg)
+
+##İsteğe bağlı olarak day butonuna tıklayarak dailycalendar sayfasına giderek haftalık olarak takvim görüntüleyebilirsiniz.
 
 ![DailyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/dailycalendar.jpg)
 
