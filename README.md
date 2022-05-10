@@ -9,7 +9,7 @@ docker compose up --build -d
 
 ```
 
-# node vue frontend kısmını görüntülemek için siteye tıklayınız. http://localhost:8080/
+# node vue frontend kısmına link ile ulaşabilirsiniz. http://localhost:8080/
 
 #Mainpage sayfası açılacaktır.
 
