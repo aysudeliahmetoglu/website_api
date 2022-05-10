@@ -15,7 +15,7 @@ docker compose up --build -d
 
 ![MainPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
 
-#Login butonuna tıklayarak LoginPage sayfasına gelebilirsiniz.
+#Email ve password girip ardından Login butonuna tıklayarak LoginPage sayfasına gelebilirsiniz.
 
 ![LoginPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/loginpage.jpg)
 
