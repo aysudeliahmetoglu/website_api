@@ -25,10 +25,9 @@ docker compose up --build -d
 
 #İsteğe bağlı olarak week butonuna tıklayarak weeklycalendar sayfasına giderek haftalık olarak takvim görüntüleyebilirsiniz.
 
-
 ![WeeklyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/weeklycalendar.jpg)
 
-##İsteğe bağlı olarak day butonuna tıklayarak dailycalendar sayfasına giderek haftalık olarak takvim görüntüleyebilirsiniz.
+#İsteğe bağlı olarak day butonuna tıklayarak dailycalendar sayfasına giderek haftalık olarak takvim görüntüleyebilirsiniz.
 
 ![DailyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/dailycalendar.jpg)
 
