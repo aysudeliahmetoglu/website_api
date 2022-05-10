@@ -8,7 +8,15 @@
 docker compose up --build -d
 
 ```
-![Anasayfa](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
+![MainPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
+![LoginPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/loginpage.jpg)
+![CalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/calendar.jpg)
+![WeeklyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/weeklycalendar.jpg)
+![DailyCalendarPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/dailycalendar.jpg)
+
+
+
+
 
 
 
