@@ -4,13 +4,12 @@
 
 #Kurulum ve başlatma
 
-````
 ```
 
 docker compose up --build -d
 
 
-````
+
 ```
 
 
