@@ -16,6 +16,20 @@ services:
     command: sh /app/compose/local/django/start
     tty: true
 
+  front-envoy:
+    container_name: vue_front
+    build:
+        context: .
+        dockerfile: ./compose/local/vue/Dockerfile
+    image: vuetest
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    # env_file:
+    #   - ./.envs/.local
+    command: sh /app/compose/local/vue/start
+    tty: true
 #   nginx:
 #     restart: always
 #     images: drftest
