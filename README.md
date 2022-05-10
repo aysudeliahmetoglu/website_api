@@ -8,7 +8,7 @@
 docker compose up --build -d
 
 ```
-![Alt text](/home/aysud/Downloads/Telegram Desktop/anasayfa.jpgraw=true "Anasayfa")
+![Anasayfa](anasayfa.png)
 
 
 
