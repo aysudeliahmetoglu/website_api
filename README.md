@@ -8,7 +8,7 @@
 docker compose up --build -d
 
 ```
-![Anasayfa](anasayfa.png)
+![Anasayfa](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
 
 
 
