@@ -24,7 +24,7 @@ anahtar kodu: gAAAAABieY1jaanM6TopuFBk4V8SEsbmcAD9LbeZ4-y1Srut_gWVukP4eXPgJH5hun
 
 
 
-#Mainpage sayfası açılacaktır.
+-Mainpage sayfası açılacaktır.
 
 ![MainPage](https://github.com/aysudeliahmetoglu/website_api/blob/master/images/anasayfa.jpg)
 
